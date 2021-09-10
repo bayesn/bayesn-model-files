@@ -10,7 +10,7 @@ This repository will be periodically updated as new versions of BayeSN are publi
 Details of currently provided models are given in the table below.
 
 Model | Wavelength Range (Å) | Phase Range (days) | Description | Model Reference | Training Set Reference
---- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | ---
 `M20` | [3000, 18500] | [-10, 40] | Mandel+20 BayeSN model. Covers rest wavelength range of 3000-18500Å (_BVriYJH_). No treatment of host mass effects. Global _R<sub>V</sub>_ assumed. Trained on low-_z_ Avelino et al. (2019) compilation of CfA, CSP and others. | Mandel et al. (2020; [arXiv:2008.07538](https://arxiv.org/abs/2008.07538)) | Avelino et al. (2019; [arXiv:1902.03261](https://arxiv.org/abs/1902.03261), [ADS](https://ui.adsabs.harvard.edu/abs/2019ApJ...887..106A/abstract)), and references therein
 
 
