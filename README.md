@@ -19,7 +19,7 @@ Model | Wavelength Range (Å) | Phase Range (days) | Description | Model Referen
 Generically, a BayeSN model is specified by six `.txt` files which specify the various population level model parameters. The relevant files are:
  * `l_knots.txt`: A list of rest frame wavelength knot locations, in Angstroms.
  * `tau_knots.txt`: A list of rest frame phase knot locations, in days.
- * `W0.txt`: The _W<sub>0</sub>_ matrix describing the zeroth order warping of the Hsiao template which gives the mean intrinsic SED. This has a column for every phase knot, and a row for every wavelength know (plus one extra row at the top and bottom).
+ * `W0.txt`: The _W<sub>0</sub>_ matrix describing the zeroth order warping of the Hsiao template which gives the mean intrinsic SED. This has a column for every phase knot, and a row for every wavelength knot (plus one extra row at the top and bottom).
  * `W1.txt`: The _W<sub>1</sub>_ matrix describing the first functional principal component. This is the same shape as `W0.txt`, with the rows/columns having the same meaning.
  * `L_Sigma_epsilon.txt`: The Cholesky factor of the residual covariance matrix.
  * `M0_sigma0_RV_tauA.txt`: Other global model parameters (intrinsic: _M<sub>0</sub>_, _σ<sub>0</sub>_; dust: _R<sub>V</sub>_, _τ<sub>A</sub>_).
