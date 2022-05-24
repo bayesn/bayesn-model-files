@@ -1,9 +1,9 @@
 DOCUMENTATION:
     PURPOSE:  BayeSN model for simulations and light-curve fitting
     REF:
-    - AUTHOR: Thorp et al., 2021, MNRAS, 508, 4310
+    - AUTHOR: Thorp et al., 2021 (this model version)
       ADS:    https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.4310T/abstract
-    - AUTHOR: Mandel et al., 2022, MNRAS, 510, 3939
+    - AUTHOR: Mandel et al., 2022 (BayeSN model)
       ADS:    https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.3939M/abstract
     INTENT: Alternative
     USAGE_KEY: GENMODEL, FITMODEL_NAME
@@ -16,7 +16,7 @@ DOCUMENTATION:
     VERSION:
     - DATE: 2021-02-04
     - TIME: 18:02:21
-    - AUTHOR: S. Thorp, K.S. Mandel, D.O. Jones, S.M. Ward, G. Narayan
+    - AUTHOR: S. Thorp, G. Narayan
 DOCUMENTATION_END:
 
 RESTLAMBDA_RANGE: 3500 9500
